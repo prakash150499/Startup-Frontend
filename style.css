@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 86px;
+    display: flex;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-right: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCAF02;
+}
+.logo
+{
+    padding-left: 60px;
+}
+.navbar>a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #000;
+
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.introduction
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+/*----------------left---------------------------*/
+.left
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+.left>h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.left>p{
+    color: #FFF;
+padding-top: 33px;
+padding-bottom: 33px;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.right>img
+{
+    margin-top: 100px;
+    width: 697px;
+    height: 482px;
+    flex-shrink: 0;
+    padding-right: 50px;
+}
+.left>button
+{
+  width: 35%;
+  width: 323px;
+  height: 66px;
+  border-radius: 500px;
+  background-color: #FCAF02;
+  color: #000;
+
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/*----------------------contact--------------*/
+.contact>h1
+{
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.contact
+{
+    width: 100%;
+    background-color: black;
+    color: #FCAF02;
+    padding-top: 100px;
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.input-group
+{
+    margin-top: 20px;
+}
+#name,#email {
+    /* Add your styles here */
+    border: 1px solid #ccc;
+    padding-left: 58px;
+    margin-bottom: 10px;
+     width: 100%;
+     padding-top: 30px;
+     padding-bottom: 24px;
+    border-radius: 100px;
+    background-color: black;
+
+}
+#number
+{
+    border: 1px solid #ccc;
+ 
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 58px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    border-radius: 100px;
+    background-color: black;
+}
+#city
+{
+    border: 1px solid #ccc;
+   
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 58px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    border-radius: 100px;
+    background-color: black;
+}
+
+.forms
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right:90px;
+}
+.third-form{
+    padding-right: 50px;
+}
+.fourth-form
+{
+    padding-left: 50px;
+
+}
+.input-group:nth-child(1) {
+    /* Add your styles here */
+  width: 100%;
+  height: 82px;
+}
+.input-group:nth-child(2) {
+    /* Add your styles here */
+  width: 100%;
+  height: 82px;
+}
+.input-group:nth-child(3) {
+    /* Add your styles here */
+  width: 50%;
+  height: 82px;
+}
+.input-group:nth-child(4) {
+    /* Add your styles here */
+  width: 50%;
+  height: 82px;
+}
+.forms>button{
+    width: 325px;
+    height: 82px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    margin-top: 50px;
+border: 2px solid #FCAF02;
+
+background: #FCAF02;
+color: #000;
+
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+::placeholder{
+    color: #FCAF02;
+
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+/*--------------table-----------*/
+
+ thead,tbody
+{
+    border-top: 2px solid #FCAF02;
+    border-bottom: 2px solid #FCAF02;
+    stroke-width: 2px;
+stroke: #FCAF02;
+}
+td,th
+{
+   padding: 20px;
+    border-right: 2px solid #FCAF02;
+    border-left: 2px solid #FCAF02;
+    stroke-width: 2px;
+stroke: #FCAF02;
+    color: #FCAF02;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.startup-table
+{
+    width: 100%;
+    
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #000;
+    border: 2px solid #FCAF02;
+    
+}
+th:nth-child(1),
+td:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 30%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 40%;
+}
+
+tbody>tr:last-child td {
+  background-color: #FCAF02;
+  color: #000;
+ 
+}
+tbody>tr:last-child td:nth-child(1) {
+    border-right: 2px solid black;
+   
+  }
+  tbody>tr:last-child td:nth-child(2) {
+    border-right: 2px solid black;
+   
+  }
+
+.table-section
+{
+   background-color: black;
+   padding: 50px;
+}
+
